@@ -27,25 +27,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
-			<version>3.0.2</version>
+			<version>3.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.15.1</version>
 		</dependency>
-		<!--<dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-data-jpa</artifactId> 
-			</dependency> -->
-
-		<!-- tag::spring-hateoas[] <dependency> <groupId>org.springframework.boot</groupId> 
-			<artifactId>spring-boot-starter-hateoas</artifactId> </dependency> end::spring-hateoas[] -->
-
-		<!--<dependency> <groupId>com.h2database</groupId> <artifactId>h2</artifactId> 
-			<scope>runtime</scope> </dependency> -->
-
 	</dependencies>
 
 	<build>
